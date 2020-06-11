@@ -1,0 +1,108 @@
+@font-face
+  font-family 'Montserrat'
+  src url(./assets/fonts/Montserrat-Bold.ttf) format("truetype")
+
+@font-face
+  font-family 'InterUI'
+  src url(./assets/fonts/Inter-UI-Regular.ttf) format("truetype")
+
+html 
+  -mwebkit-text-size-adjust 100%
+  -ms-text-size-adjust 100%
+
+* 
+  -mwebkit-box-sizing border-box
+  -moz-box-sizing border-box
+  box-sizing border-box
+
+body
+    background #FFFAE6
+    margin 0    
+    font-family 'InterUI'
+
+.cover
+    float left 
+    width 100%
+
+.col-9
+    float left
+    width 75%
+    @media (max-width:768px)
+        width 65%
+    @media (max-width:600px)
+        width 100%
+
+.col-6
+    float left
+    width 50%
+    @media (max-width:768px)
+        width 50%
+    @media (max-width:600px)
+        width 100%
+
+.col-3
+    float left
+    width 25%
+    @media (max-width:768px)
+        width 35%
+    @media (max-width:600px)
+        width 100%
+
+.form-group
+    display block
+    margin-bottom 10px
+    position relative
+    label
+        position absolute
+        top: 15px
+        left 10px
+        font-family 'InterUI'
+        font-size 13px
+    
+    input 
+        width 100%
+        font-family 'InterUI'
+        font-size 16px
+        margin-bottom 5px
+        padding: 30px 10px 15px 10px
+        background #FFFFFF
+        border 1px solid #CCCCCC
+        box-sizing border-box
+    
+    textarea
+        width 100%
+        font-family 'InterUI'
+        font-size 16px
+        padding: 30px 10px 15px 10px
+        background #FFFFFF
+        border 1px solid #CCCCCC
+        box-sizing border-box
+    
+    .charNum
+        background #eee
+        padding 5px
+        position absolute
+        border-radius 4px
+        top 5px
+        right 5px
+        font-size: 10px
+    
+    .is-invalid
+        border 1px solid #FF8A00
+    .form-error
+        font-size 10px
+        color #FF8A00
+        
+.btn
+    width 100%
+    padding 15px
+    font-size: 14px
+    color #FFFFFF
+    background #FF8A00
+    border 1px solid rgba(255, 255, 255, 0.2)
+    box-sizing border-box
+    box-shadow 3px 5px 10px rgba(255, 138, 0, 0.2)
+    border-radius 2px
+    :hover
+        background: rgba(255, 138, 0, 0.6);
+
