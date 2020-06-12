@@ -1,12 +1,21 @@
 # spa
 
-> A Vue.js single page application project using vue-router by samuelayo
+> A Vue.js single page application project using vue-router by Ari Wibowo
 
 ## Build Setup
 
 ``` bash
 # install dependencies
 npm install
+
+# install stylus-loader
+npm install stylus-loader stylus --save-dev
+
+# install vuelidate
+npm install vuelidate --save
+
+# install vuelidate
+npm install vuelidate-error-extractor
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -23,5 +32,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
